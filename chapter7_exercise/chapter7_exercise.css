@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-visual {
+    width: 100%;
+    height: 400px;
+    background-image: url(img/mv.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.main-visual-text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 32px;
+    padding: 20px 0 0 20px;
+}
+.main-box {
+    width: 840px;
+    margin: 50px auto;
+}
+.main-item {
+    /* width: 600px; */
+    padding-bottom: 30px;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+.main-image {
+    padding-top: 30px;
+}
+.main-text {
+    color: rgba(0, 0, 0, 0.5)
+}
