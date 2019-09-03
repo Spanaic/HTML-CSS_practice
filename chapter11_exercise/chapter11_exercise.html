@@ -9,15 +9,17 @@
 </head>
 <body>
     <header>
-        <img class="header-logo" src="img/logo.png">
-        <nav>
-            <ul class="nav-list">
-                <li class="nav-list-item">Portfolio</li>
-                <li class="nav-list-item">Feature</li>
-                <li class="nav-list-item">Profile</li>
-                <li class="nav-list-item">Contact</li>
-            </ul>
-        </nav>
+        <div class="header-box">
+            <img class="header-logo" src="img/logo.png">
+            <nav class="nav-list">
+                <ul>
+                    <li class="nav-list-item">Portfolio</li>
+                    <li class="nav-list-item">Feature</li>
+                    <li class="nav-list-item">Profile</li>
+                    <li class="nav-list-item">Contact</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <section class="main-visual">
@@ -25,38 +27,47 @@
         <p class="main-visual-text">simply dummy text of the printing</p>
     </section>
 
-    <main class="clearfix">
-        <section class="portfolio-box">
-            <h2 class="portfolio-header">Portfolio</h2>
-            <div class="portfolio-text-box">
-                <span class="portfolio-text">
-                    It is a long established fact that a reader will be distracted by the readable<br>
-                    content of a page when lokking at its layout.<br>
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-                </span>
+    <main>
+        <section class="portfolio clearfix">
+            <div class="portfolio-box">
+                <h2 class="portfolio-header">Portfolio</h2>
+                <div class="portfolio-header-line"></div>
+                <div class="portfolio-text-box">
+                    <span class="portfolio-text">
+                        It is a long established fact that a reader will be distracted by the readable<br>
+                        content of a page when lokking at its layout.<br>
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                    </span>
+                </div>
+                <div class="clearfix">
+                    <div class="portfolio-img-box1"></div>
+                    <div class="portfolio-img-box2"></div>
+                    <div class="portfolio-img-box3"></div>
+                    <div class="portfolio-img-box4"></div>
+                    <div class="portfolio-img-box5"></div>
+                    <div class="portfolio-img-box6"></div>
+                </div>
             </div>
-
-            <div class="portfolio-img-box1"></div>
-            <div class="portfolio-img-box2"></div>
-            <div class="portfolio-img-box3"></div>
-            <div class="portfolio-img-box4"></div>
-            <div class="portfolio-img-box5"></div>
-            <div class="portfolio-img-box6"></div>
         </section>
     </main>
 
-    <section class="feature-box clearfix">
-        <h2 class="feature-header">Feature</h2>
-        <div class="feature-text-box">
-            <span class="feature-text">
-                    It is a long established fact that a reader will be distracted by the readable<br>
-                    content of a page when lokking at its layout.<br>
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-            </span>
+    <section>
+        <div class="feature-box cleafix">
+            <h2 class="feature-header">Feature</h2>
+            <div class="feature-header-line"></div>
+            <div class="feature-text-box">
+                <span class="feature-text">
+                        It is a long established fact that a reader will be distracted by the readable<br>
+                        content of a page when lokking at its layout.<br>
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                </span>
+            </div>
 
             <section class="strength-box">
                 <div class="strength-box-contents">
-                    <i class="fas fa-yen-sign"></i>
+                    <div class="social-icon-box">
+                        <i class="fas fa-yen-sign"></i>
+                    </div>
                     <h3 class="strength-header">Strength1</h3>
                     <p class="strength-text">
                         Contrary to popular belief,Lorem Ipsum
@@ -71,7 +82,9 @@
                 </div>
 
                 <div class="strength-box-contents">
-                    <i class="fas fa-dollar-sign"></i>
+                    <div class="social-icon-box">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
                     <h3 class="strength-header">Strength2</h3>
                     <p class="strength-text">
                         Contrary to popular belief,Lorem Ipsum
@@ -86,7 +99,9 @@
                 </div>
 
                 <div class="strength-box-contents">
-                    <i class="fas fa-euro-sign"></i>
+                    <div class="social-icon-box">
+                        <i class="fas fa-euro-sign"></i>
+                    </div>
                     <h3 class="strength-header">Strength3</h3>
                     <p class="strength-text">
                         Contrary to popular belief,Lorem Ipsum
@@ -106,6 +121,7 @@
     <section class="profile clearfix">
         <div class="profile-top-box">
             <h2 class="profile-header">Profile</h2>
+            <div class="profile-header-line"></div>
             <div class="profile-text-box">
                 <span class="profile-text">
                     It is a long established fact that a reader will be distracted by the readable<br>
@@ -115,7 +131,7 @@
             </div>
         </div>
 
-        <section class="profile-bottlom-box">
+        <section class="profile-bottom-box">
             <div class="profile-image-box">
                 <img class="profile-image" src="img/my-icon.jpg">
             </div>
@@ -145,29 +161,44 @@
         </section>
     </section>
 
-    <section class="Contact">
-        <h2 class="contact-header">Contact</h2>
-        <span class="contact-text">
-                It is a long established fact that a reader will be distracted by the readable<br>
-                content of a page when lokking at its layout.<br>
-                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
-        </span>
-
-        <div class="contact-bottom">
-            <div class="contact-form-box">
-                <p class="mail">Mail</p>
-                <p class="mail-address">xxx@xxx.com</p>
-                <p class="tell">Tell</p>
-                <p class="tell-numbers">000-0000-0000</p>
+    <section>
+        <div class="contact-box clearfix">
+            <h2 class="contact-header">Contact</h2>
+            <div class="contact-header-line"></div>
+            <div class="contact-text-box">
+                <span class="contact-text">
+                        It is a long established fact that a reader will be distracted by the readable<br>
+                        content of a page when lokking at its layout.<br>
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                </span>
             </div>
 
-            <div class="social-box">
-                <p class="social-title">SNS</p>
-                <div class="social-icon-box">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
+            <div class="contact-bottom">
+                <!-- <div class="contact-form-box"> -->
+                <div class="contact-form-contents">
+                    <div class="mail-box">
+                        <p class="mail">Mail</p>
+                        <p class="mail-address">xxx@xxx.com</p>
+                    </div>
+                    <div class="tell-box">
+                        <p class="tell">Tell</p>
+                        <p class="tell-numbers">000-0000-0000</p>
+                    </div>
                 </div>
+                <!-- </div> -->
+
+                <!-- <div class="social-box"> -->
+                    <div class="social-box-contents">
+                        <div class="social-title-box">
+                            <p class="social-title">SNS</p>
+                        </div>
+                        <div class="social-fabicon-box">
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                <!-- </div> -->
             </div>
         </div>
     </section>
