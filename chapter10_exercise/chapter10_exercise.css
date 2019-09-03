@@ -37,6 +37,7 @@
     color: #fff;
     left: 6px;
     top: 3px;
+    font-weight: bold;
 }
 .img-box {
     width: 280px;
@@ -44,4 +45,22 @@
 .headerline {
     font-size: 18px;
     margin: 10px 10px 10px 0;
+}
+@media screen and (max-width: 768px) {
+    .big-box {
+        width: 100%;
+        margin: 30px auto 50px auto;
+    }
+    .box-contents {
+        float: none;
+        width: 90%;
+        margin: 20px 5%;
+        padding: 5%;
+    }
+    .box-contents:nth-child(2) {
+        margin: 20px 5%;
+    }
+    .img-box {
+        width: 100%;
+    }
 }
