@@ -251,7 +251,7 @@ header {
 .profile-image-box {
     width: 512px;
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 .profile-image {
@@ -325,7 +325,7 @@ header {
     width: 400px;
     /* margin: 0 auto; */
     float: left;
-    display: inline-block;
+    /* display: inline-block; */
     text-align: center;
 }
 .mail-box {
@@ -388,11 +388,11 @@ header {
     padding-right: 20px;
     display: inline-block;
 }
-.social-fabicon-box {
-    /* position: absolute;
+/* .social-fabicon-box {
+    position: absolute;
     left: 90px;
-    top: 35px; */
-}
+    top: 35px;
+} */
 
 footer {
     width: 100%;
@@ -407,12 +407,12 @@ footer {
 @media screen and (max-width: 767px){
     header {
         height: 50px;
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        /* margin: 0 5%; */
     }
     .header-box {
         width: 90%;
-        /* padding: 5px; */
+        margin: 0 5%;
     }
     .header-logo {
         height: 50px;
@@ -428,29 +428,29 @@ footer {
         width: 40px;
         height: 40px;
         float: right;
+        margin: 5px;
         /* display: inline-block; */
         /* text-align: right */
-        margin: 5px;
         /* line-height: 55px; */
         /* padding: 20px 0 20px 0; */
     }
-    .ham-line-box {
-        /* padding: 20px 0 20px 0; */
-    }
+    /* .ham-line-box {
+        padding: 20px 0 20px 0;
+    } */
     .ham-line {
         background-color: #fafafa;
         width: 30px;
         height: 3px;
         margin: 7px auto;
     }
-    .ham-line:first-child {
-        /* margin-top: 20px; */
+    /* .ham-line:first-child {
+        margin-top: 20px;
     }
     .ham-line:last-child {
-        /* margin-bottom: 20px; */
-    }
+        margin-bottom: 20px;
+    } */
     .main-visual {
-        width:  90%;
+        width:  100%;
         margin: 0 auto;
         background-image: url(img/code.png);
         /* padding: 200px 0 0 0; */
@@ -463,13 +463,14 @@ footer {
         font-size: 18px;
     }
     .portfolio {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        /* margin: 0 5%; */
     }
     .portfolio-box {
-        width: 100%;
+        width: 90%;
+        padding: 0 5%;
     }
-    .portfolio {
+    .portfolio-text {
         font-size: 16PX;
     }
     .portfolio-img-box1,
@@ -483,15 +484,22 @@ footer {
         float: none;
         margin: 0 auto;
         margin-bottom: 10px;
+        width: 100%;
     }
     .feature-box {
         width: 90%;
+        padding: 90px 5%;
+        margin: 0 auto;
     }
     .feature-text  {
         font-size: 16px;
     }
     .strength-box {
         padding: 0 5%;
+    }
+    .strength-box-contents {
+        width: 100%;
+        margin: 0;
     }
     .strength-header {
         font-size: 20px;
@@ -500,20 +508,25 @@ footer {
         padding-top: 10px;
     }
     .profile {
-        width: 90%;
-        margin: 0 5%;
+        width: 100%;
+        /* margin: 0 5%; */
     }
     .profile-top-box {
-        width: 100%;
+        width: 90%;
+        padding-bottom: 30px;
+    }
+    .profile-text-box {
+        padding: 0 5%;
     }
     .profile-bottom-box {
-        width: 100%;
+        width: 90%;
     }
     .profile-image-box {
         width: 100%;
     }
     .profile-name-skills-box {
         width: 100%;
+        padding: 0 5%;
     }
     .profile-name-box {
         text-align: center;
@@ -524,10 +537,13 @@ footer {
     }
     .profile-skills-box {
         text-align: center;
+        width: 100%;
+        float: none;
     }
     .contact-box {
         width: 90%;
-        margin: 0 5%;
+        margin: 90px auto;
+        padding: 0 5%;
     }
     .contact-form-contents {
         float: none;
@@ -559,5 +575,8 @@ footer {
     }
     footer {
         line-height: 60px;
+    }
+    .sp-none {
+        display: none;
     }
 }
